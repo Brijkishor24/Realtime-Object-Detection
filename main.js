@@ -14,7 +14,7 @@ function setup(){
 function modelloaded(){
     console.log("Model Loaded");
     status= true;
-    objectDetector.detect(video,getResult);
+    
 } 
 function getResult(error,results){
    if(error){
@@ -26,11 +26,12 @@ function getResult(error,results){
     }
 }
 function draw(){
-    image(video,0,0,640,420);
+    image(video,0,0,380,380);
 
    
 
     if(status!=""){
+        objectDetector.detect(video,getResult);
         console.log(objects);
         r=random(255);
         g=random(255);
