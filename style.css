@@ -1,0 +1,30 @@
+body{
+    background-size:cover;
+}
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status,#No.of_objects_detected{
+font-size: 18px;
+}
+canvas{
+    border: 10px solid rebeccapurple;
+    margin-top:30px;
+}
+ /*fill("red");
+    textSize(20);
+    text("Dog",50,100);
+    noFill();
+    stroke("red");
+    rect(30,60,350,300)
+
+    fill("blue");
+    textSize(20);
+    text("Cat",280,140);
+    noFill();
+    stroke("blue");
+    rect(270,60,300,300);*/
